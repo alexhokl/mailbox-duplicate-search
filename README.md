@@ -14,7 +14,7 @@ mailbox-duplicate-search
 To delete all the duplicated mail messages in the same directory.
 
 ```sh
-export MAILBOX_SEARCH_IS_DRY_RUN=true
+export MAILBOX_SEARCH_IS_DRY_RUN=false
 rm $(mailbox-duplicate-search)
 ```
 
