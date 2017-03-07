@@ -135,7 +135,7 @@ func isDryRun() (bool, error) {
 func getEnvironmentVariable(name string) (string, error) {
 	val := os.Getenv(name)
 	if val == "" {
-		return "", errors.New(fmt.Sprintf("Environment variable %s is not set"))
+		return "", errors.New(fmt.Sprintf("Environment variable %s is not set", name))
 	}
 	return val, nil
 }
