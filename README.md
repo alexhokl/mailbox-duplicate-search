@@ -1,4 +1,4 @@
-# mailbox-search [![Build Status](https://travis-ci.org/alexhokl/mailbox-duplicate-search.svg?branch=master)](https://travis-ci.org/alexhokl/mailbox-duplicate-search)
+# mailbox-duplicate-search [![Build Status](https://travis-ci.org/alexhokl/mailbox-duplicate-search.svg?branch=master)](https://travis-ci.org/alexhokl/mailbox-duplicate-search)
 
 CLI tool to find out duplicate mails in a folder
 
